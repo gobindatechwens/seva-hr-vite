@@ -783,7 +783,7 @@ const CompanyOnboardingNew = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-4 sm:p-6 lg:p-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto pt-14">
         <OnboardingHeader
           formData={formData}
           organizationTypes={organizationTypes}

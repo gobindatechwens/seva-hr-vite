@@ -4,6 +4,7 @@ import LogoImg from "../../assets/Logo.svg";
 import CallIcon from "../../assets/callIcon.svg";
 import PlayBtnIcon from "../../assets/playButton.svg";
 import { Link as ScrollLink } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const HeaderLayout = styled.header({
   position: "fixed",
@@ -244,7 +245,9 @@ export default function Header() {
       <HeaderLayout className={isSticky ? 'sticky' : ''}>
         <HeaderContainer className="container">
           <Brand>
+          <Link to="/">
             <img src={LogoImg} alt="SevaHR - HRMS Platform Logo" width={60} height={60} loading="eager" priority />
+            </Link>
           </Brand>
 
           <HamburgerButton
