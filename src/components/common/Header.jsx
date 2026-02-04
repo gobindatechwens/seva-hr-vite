@@ -181,7 +181,7 @@ const HamburgerButton = styled.button(({ $isOpen }) => ({
     display: 'block',
     width: '100%',
     height: '3px',
-    background: "#FF7F0F",
+   
     background: "linear-gradient(270deg, rgba(255, 127, 15, 1) 0%, rgba(29, 58, 95, 1) 100%)",
     borderRadius: '2px',
     transition: 'all 0.3s ease',
