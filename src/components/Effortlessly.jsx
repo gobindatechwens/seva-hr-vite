@@ -216,7 +216,6 @@ const CtaButton = styled.button({
   boxShadow: "0 4px 20px rgba(71, 111, 255, 0.3)",
   "@media (max-width: 991px)": {
     height: "2.625rem",
-    fontSize: "0.875rem",
     borderRadius: "0.75rem",
     fontSize: "0.875rem",
   },

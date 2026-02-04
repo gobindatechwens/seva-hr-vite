@@ -258,13 +258,11 @@ export const FormCard = styled.div({
     padding: "1.5rem",
   },
   "@media (max-width: 768px)": {
-    padding: "1.75rem",
     border: "1px solid #D5D3FF",
     borderRadius: "1.25rem",
     padding: "1rem 0.75rem",
   },
-    "@media (max-width: 575px)": {
- 
+  "@media (max-width: 575px)": {
     borderRadius: "0.75rem",
   },
 

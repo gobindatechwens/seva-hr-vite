@@ -111,7 +111,6 @@ const Left = styled.div({
     },
     "& li": {
       width: "calc((100% - 2rem) / 3)",
-      padding: "0.063rem",
       position: "relative",
       borderRadius: "1.188rem",
       overflow: "hidden",
